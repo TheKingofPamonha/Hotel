@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Frontend Mentor | Hotel booking confirmation page</title>
 </head>
 <body>
@@ -47,6 +49,93 @@
             </footer>
         </aside>
         <main class="conteudo">
+
+            <header class="cabecalho-conteudo">
+                <div class="cabelho-textos">
+                    <p class="bem-texto">BOOKING · CONFIRMED</p>
+                    <h1 class="bem-nome">Bienvenue, <strong class="bem-forte">Lucia.</strong></h1>
+                </div>
+
+                <div class="cabecalho-botoes">
+                    <button type="button" class="btn btn-print">Print receipt</button>
+                    <button type="button" class="btn btn-add">Add to calendar</button>
+                </div>
+            </header>
+
+            <section class="card">
+
+                <article class="card-branco">
+                    <header class="receipt-cabecalho">
+                        <div class="receipt-esquerda">
+                            <p class="receipt-texto">RECEIPT</p>
+                            <h2 class="receipt-titulo">Your Stay</h2>
+                        </div>
+
+                        <div class="receipt-direita">
+                            <p class="receipt-texto">№ MS-2026</p>
+                            <p class="receipt-texto">0421-AH</p>
+                        </div>
+                    </header>
+
+                    <div class="receipt-detalhes">
+                        <div class="check-in">
+                            <p class="detalhe-titulo">CHECK IN</p>
+                            <time class="detalhe-data" datetime="2026-04-25">25 Apr</time>
+                            <p class="detalhe-hora">Saturday · 15:00</p>
+                        </div>
+
+                        <div class="check-out">
+                            <p class="detalhe-titulo">CHECK OUT</p>
+                            <time class="detalhe-data" datetime="2026-04-29">29 Apr</time>
+                            <p class="detalhe-hora">Wednesday · 11:00</p>
+                        </div>
+                    </div>
+
+                    <ul class="receipt-cobrancas">
+                        <li class="cobranca-item">
+                            <span class="cobranca-nome">Room · La Garrigue × 4 nights</span>
+                            <span class="cobranca-valor">€ 620.00</span>
+                        </li>
+                        <li class="cobranca-item">
+                            <span class="cobranca-nome">Breakfast × 2 guests</span>
+                            <span class="cobranca-valor">€ 96.00</span>
+                        </li>
+                        <li class="cobranca-item">
+                            <span class="cobranca-nome">Tourist tax</span>
+                            <span class="cobranca-valor">€ 14.40</span>
+                        </li>
+                    </ul>
+
+                   <footer class="receipt-rodape">
+                        <div class="rodape-linha total-container">
+                            <p class="total-texto">TOTAL PAID</p>
+                            <p class="total-preco">€ 730.40</p>
+                        </div>
+
+                        <div class="rodape-linha pagamento-container">
+                            <p class="pagamento-texto">PAID · WISE · GBP</p>
+                            <!-- A imagem do codigo de barra entra aqui -->
+                        </div>     
+                   </footer>
+                </article>
+
+                <div class="card-laranja">
+                    
+                    
+                </div>
+
+            </section>
+
+
+            <section class="info">
+
+                <article class="info-card"></article>
+
+                <article class="info-card"></article>
+
+                <article class="info-card"></article>
+
+            </section>
         </main>
     </div>
     
