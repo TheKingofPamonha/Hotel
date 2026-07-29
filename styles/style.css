@@ -38,7 +38,7 @@ body {
 .container {
     display: flex;
 }
-
+/* Barra Lateral */
 .barra {
     display: flex;
     flex-direction: column;
@@ -138,21 +138,86 @@ body {
 }
 
 .rodape-titulo {
-    font-family: var(--dm-sans);
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-family: var(--dm-mono);
+    font-size: 0.7rem;
+    font-weight: 400;
     color: var(--neutral-600);
 }
 
 .rodape-texto{
-    font-family: var(--dm-sans);
+    font-family: var(--dm-mono);
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--neutral-600);
+    margin: 1rem 0;
+}
+
+.rodape-desc {
+    font-family: var(--dm-mono);
+    font-size: 0.8rem;
+    font-weight: 400;
     text-transform: uppercase;
     color: var(--neutral-600);
 }
-
+/* Barra Lateral */
 .conteudo {
+    display: flex;
+    flex-direction: column;
     padding: 1.5rem;
-    border-left: 0.5px solid var(--neutral-400);
+    border-left: 0.1rem solid var(--neutral-400);
+    flex: 1;
+}
+
+.cabecalho-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bem-texto {
+    font-family: var(--dm-mono);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--neutral-600);
+    margin-bottom: 0.5rem;
+}
+
+.bem-nome {
+    font-family: var(--fraunces);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--neutral-900);
+}
+
+.bem-forte {
+    font-style: italic;
+    color: var(--terracotta-700);
+}
+
+.cabecalho-botoes {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.btn {
+    padding: 0.6rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 0.1rem solid var(--neutral-400);
+    cursor: pointer;
+    font-family: var(--dm-sans);
+    font-weight: bold;
+}
+
+.btn-print {
+    color: var(--neutral-900);
+    width: 7rem;
+}
+
+.btn-add {
+    background-color: var(--neutral-900);
+    color: var(--neutral-50);
+    width: 9rem;
 }
