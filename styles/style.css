@@ -231,7 +231,7 @@ body {
 }
 
 .card-branco, .card-laranja{
-    width: 25rem;
+    width: 27rem;
     height: 25rem;
     padding: 2.5rem;
     border-radius: 2rem;
@@ -307,9 +307,56 @@ body {
     flex-direction: column;
     gap: 0.8rem;
     padding-top: 1rem;
+    border-bottom: 0.1rem solid var(--neutral-600);
+    padding-bottom: 1rem;
 }
 
 .cobranca-item {
     display: flex;
     justify-content: space-between;
+}
+
+.cobranca-nome {
+    font-family: var(--dm-sans);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--neutral-900);
+}
+
+.cobranca-valor {
+    font-family: var(--dm-sans);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--neutral-900);
+}
+
+.cobranca {
+    color: var(--neutral-600);
+}
+
+.rodape-linha {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.total-texto {
+    font-family: var(--dm-mono);
+    font-size: 0.77rem;
+    font-weight: 400;
+    color: var(--neutral-600);
+}
+
+.total-preco {
+    font-family: var(--fraunces);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--neutral-800);
+}
+
+.pagamento-texto {
+    font-family: var(--dm-mono);
+    font-size: 0.77rem;
+    font-weight: 400;
+    color: var(--neutral-600);
 }
