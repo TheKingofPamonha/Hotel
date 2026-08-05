@@ -433,7 +433,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 .hover-img {
@@ -485,7 +485,7 @@ body {
 }
 
 .arrival-texto {
-    font-family: var(--dm-sans);
+    font-family: var(--dm-mono);
     font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -526,4 +526,92 @@ body {
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--neutral-800);
+}
+
+.icon-wifi {
+    width: 2.5rem;
+    padding: 0.4rem;
+    background-color: var(--blue-500);
+    border-radius: 0.5rem;
+}
+
+.wifi-titulo {
+    font-family: var(--dm-mono);
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: var(--blue-500);
+}
+
+.wifi-num {
+    font-family: var(--fraunces);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--blue-500);
+}
+
+.check-guest {
+    margin-top: 1.8rem;
+    font-family: var(--fraunces);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--neutral-900);
+    margin-bottom: 0.5rem;
+}
+
+.check-sub {
+    font-family: var(--dm-sans);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--neutral-600);
+}
+
+.check-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+.network, .password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--neutral-200);
+}
+
+.pass-direita {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.net-texto, .word-texto {
+    font-family: var(--dm-mono);
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: var(--neutral-600);
+}
+
+.rede-texto, .pass-texto {
+    font-family: var(--dm-sans);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--neutral-900);
+}
+
+.btn-pass {
+    padding: 0.1rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 0.1rem solid var(--neutral-400);
+    color: var(--neutral-700);
+    cursor: pointer;
+    font-family: var(--dm-sans);
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 3.5rem;
 }
